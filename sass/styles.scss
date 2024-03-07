@@ -380,7 +380,7 @@ Social share buttons
 }
 
 /* ==========================================================================
-Intro
+Confirmaciones
 ========================================================================== */
 .intro span.icon {
   font-size: 40px;
@@ -399,15 +399,21 @@ Intro
   width: 80%;
 }
 
-#intro {
+#confirmaciones {
   padding-top: 40px;
   img {
     width: 100%;
     height: auto;
   }
-}
-#intro p {
-  text-align: center;
+  
+  img.wappicon {
+    height: 25px;
+    width: 25px;
+  }
+  
+  .leftcol {
+    border-right: solid 1px $keyline-color;
+  }
 }
 
 /* ==========================================================================
