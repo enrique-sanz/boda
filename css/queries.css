@@ -1,3 +1,15 @@
+@media screen and (min-width: 1441px) {
+    .hero {
+        background: url('../img/hero_ws.png') center bottom;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        position: relative;
+    }
+}
+
+  
 @media screen and (max-width: 1200px) {
     header {
         width: 90%;
