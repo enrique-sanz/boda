@@ -21,7 +21,7 @@ var conversation = document.querySelector('.conversation-container');
 form.addEventListener('submit', newMessage);
 
 function newMessage(e) {
-	var input = e.target.input;
+	var input = e.target.text;
 
 	if (input.value) {
 		var message = buildMessage(input.value);
