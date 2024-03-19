@@ -24,6 +24,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 10px;
   }
   
   .marvel-device .screen {
@@ -297,9 +298,10 @@
     flex-direction: row;
     align-items: flex-end;
     overflow: hidden;
-    height: 50px;
+    height: 55px;
     width: 100%;
     z-index: 2;
+    padding-bottom: 5px;
   }
   
   .conversation-compose div,
@@ -388,7 +390,7 @@
   }
   
   /* Small Screens */
-  
+/*   
   @media (max-width: 768px) {
     .marvel-device.nexus5 {
       border-radius: 0;
@@ -426,4 +428,4 @@
     .conversation .conversation-container {
       height: calc(100vh - 120px);
     }
-  }
+  } */

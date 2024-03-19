@@ -18,7 +18,7 @@ for (var i = 0; i < messageTime.length; i++) {
 var form = document.querySelector('.conversation-compose');
 var conversation = document.querySelector('.conversation-container');
 
-form.addEventListener('submit', newMessage);
+//form.addEventListener('submit', newMessage);
 
 function newMessage(e) {
 	var input = e.target.text;
