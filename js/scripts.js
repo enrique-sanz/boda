@@ -93,25 +93,25 @@ $(document).ready(function () {
                 $('section.navigation').addClass('fixed');
                 $('header').css({
                     "border-bottom": "none",
-                    "padding": "25px 0"
+                    "padding": "5px 0"
                 });
                 $('header .member-actions').css({
-                    "top": "32px",
+                    "top": "13px",
                 });
                 $('header .navicon').css({
-                    "top": "44px",
+                    "top": "20px",
                 });
             } else {
                 $('section.navigation').removeClass('fixed');
                 $('header').css({
                     "border-bottom": "solid 1px rgba(255, 255, 255, 0.2)",
-                    "padding": "25px 0"
+                    "padding": "15px 0"
                 });
                 $('header .member-actions').css({
-                    "top": "32px",
+                    "top": "24px",
                 });
                 $('header .navicon').css({
-                    "top": "44px",
+                    "top": "30px",
                 });
             }
         });
