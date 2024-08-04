@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Redirigiendo...</title>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            try {
+                window.location.replace("https://music.youtube.com/watch?v=0u5PEhjyMfo");
+            } catch (e) {
+                document.getElementById("fallback").style.display = "block";
+            }
+        });
+    </script>
+</head>
+<body>
+    <p>Redirigiendo al enlace...</p>
+    <p id="fallback" style="display:none;">
+        Si no has sido redirigido automáticamente, <a href="https://music.youtube.com/watch?v=0u5PEhjyMfo">pulsa aquí</a>.
+    </p>
+</body>
+</html>
